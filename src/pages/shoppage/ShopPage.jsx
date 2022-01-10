@@ -17,7 +17,6 @@ export class ShopPage extends Component {
 
         return (
             <div className='shop-page'>
-                <h1>Shop</h1>
                 {collections.map(({id, ...otherCollectionProps}) => {
                   return <CollectionPreview key={id} { ...otherCollectionProps } />
                 }
