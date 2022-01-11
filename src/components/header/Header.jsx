@@ -16,6 +16,9 @@ function Header() {
                 <Link to="/contact" className='option'>
                     CONTACT
                 </Link>
+                <Link to="/sign" className='option'>
+                    Sign In / Up
+                </Link>
             </div>
         </div>
     )
